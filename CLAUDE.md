@@ -78,10 +78,14 @@ Level 0: a `system` states its purpose (`::`), product (`technology`), `area`, `
 
 ## Design Review Panels
 
+The panels, the thesis and the commands that apply them live at the root of the private `../app` repository (this repository is public):
+
 - `CORE_TEAM.md` — 7-panellist review for language/grammar changes (Simplicity, DDD Fidelity, Readability, Machine Reasoning, Cross-File Coherence, Skill Experience, Provocateur); `/review <proposal>` applies it
 - `VISION_TEAM.md` — the vision brainstorm panel; `/vision <question>` applies it and proposes updates to `VISION.md`
 - `CONSTRUCT_CRITERIA.md` — the grid deciding whether a construct deserves a place in a language
 - Both panels follow: Present → Respond → Rebut → Synthesise → Verdict
+
+Run `/review` or `/vision` from a session opened in `../app`, passing the proposal or the path of the changed files here as the argument.
 
 ## Downstream Checks After a Change
 

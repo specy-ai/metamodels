@@ -41,8 +41,7 @@ metamodels/
 ├── examples/               # Complete example projects: the acceptance corpus of the parsers
 ├── specy.sh                # Convert / validate any model between DSL, JSON, YAML and Markdown
 ├── parse-domain.sh         # Render a .domain to JSON / YAML / Markdown
-├── build.sh                # Build orchestrator (langium, tree-sitters, diagrams)
-└── VISION.md, CORE_TEAM.md, VISION_TEAM.md, CONSTRUCT_CRITERIA.md   # thesis and review panels
+└── build.sh                # Build orchestrator (langium, tree-sitters, diagrams)
 ```
 
 ## Quick start
@@ -145,7 +144,7 @@ This repository is the one the others build on. Each expects the others as **sib
 
 ## Contributing
 
-Specy is built in the open. The design philosophy lives in [VISION.md](./VISION.md); changes to a language go through the review panel of [CORE_TEAM.md](./CORE_TEAM.md) and the construct criteria of [CONSTRUCT_CRITERIA.md](./CONSTRUCT_CRITERIA.md). A grammar change goes with its EBNF, its Langium grammar, its tree-sitter grammar and the metamodel prose, and every example must still validate.
+Specy is built in the open. Changes to a language go through a design review panel before they land. A grammar change goes with its EBNF, its Langium grammar, its tree-sitter grammar and the metamodel prose, and every example must still validate.
 
 ## License
 
